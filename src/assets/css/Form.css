@@ -1,0 +1,81 @@
+.form {
+  padding: 15px;
+}
+
+.form .input-field {
+  width: 100%;
+}
+
+.form .input-field input {
+  padding-left: 30px;
+  box-sizing: border-box;
+}
+
+.form .input-field .input-icon {
+  position: absolute;
+  top: 8px;
+  transition: 0.2s;
+}
+
+.form .input-field label {
+  margin-left: 30px;
+}
+
+.form .file-field {
+  position: relative;
+}
+
+.form .file-field .file-icon {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-bottom: 8px;
+}
+
+.form .file-field .file-path-wrapper {
+  padding-left: 0;
+}
+
+.form .file-field .file-path-wrapper input {
+  padding-left: 30px;
+}
+
+.form .btn {
+  width: 100%;
+}
+
+.form .redirect-link {
+  text-align: center;
+  font-size: 12px;
+  margin-top: 1rem;
+  transition: 0.2s ease-out;
+  color: #64cbef;
+}
+
+.form .redirect-link:hover, .form .redirect-link:active, .form .redirect-link:focus {
+  color: #000000;
+}
+
+.form .error-field {
+  color: #b00020;
+  font-size: 12px;
+  height: 18px;
+}
+
+.form .error-after-submit {
+  color: #b00020;
+  font-size: 12px;
+  text-align: center;  
+  margin-bottom: 1rem;
+}
+
+.form .loading {
+  background-image: url(../icon/loading.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}

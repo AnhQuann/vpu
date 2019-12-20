@@ -1,3 +1,7 @@
+html, body, #root {
+  height: 100%;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
@@ -10,4 +14,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.btn, .btn:active, .btn:focus {
+  background-color: #64cbef;
+}
+
+.btn:hover {
+  background-color: #000000;
+}
+
+.App {
+  min-width: 320px;
+  user-select: none;
+}
+
+.red {
+  color: #b00020;
+  background-color: transparent !important;
+}
+
+.blue {
+  color: #64cbef;
+  background-color: transparent !important;
 }
